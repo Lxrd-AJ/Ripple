@@ -24,6 +24,8 @@ p
 {
     font-size: 0.7em;
     color: gray;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .background
@@ -48,4 +50,43 @@ button
 {
     border-radius: 5px;
     width: 100px;
+    height: 2em;
+    background-color: rgba(10,9,255,0.6);
+    border: 1px solid white;
+    margin-left: window.innerWidth;
+    margin-right: 1em;
+}
+
+button:hover
+{
+    background-color: white;
+}
+
+button:active
+{
+	background-color: hsla(234,80%,20%, 0.4);
+}
+
+input
+{
+    display: block;
+    height: 3em;
+    width: 30em;
+    border: 1px solid gray;
+    border-radius: 5px; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label
+{
+    display: inline-block;
+}
+
+.check
+{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
 }

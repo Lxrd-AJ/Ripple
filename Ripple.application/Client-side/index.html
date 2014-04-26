@@ -10,12 +10,13 @@
         <h1>Ripple</h1>
         <div class="background"></div>
         <p>Ripple lets you connect with people around you based on your location preferences</p>
-        <form>
-            <input type="text" placeholder="User Name" name="username"></input>
-            <input type="text" placeholder="Email" name="email"></input>
-            <input type="checkbox"><label class="smallPrint">Remember me</label>
+        <form action="" autocomplete="on" method="post">
+            <input type="text" placeholder="User Name" name="username" ></input>
+            <input type="email" placeholder="Email" name="email"></input>
+            <input type="password" autocomplete="on" placeholder="Password"></input>
+            <input type="checkbox" class="check"><label class="smallPrint">Remember me</label></input>
         </form>
-        <button>Log in</button>
-        <button>sign up</button>
+        <button type="submit">Log in</button>
+        <button type="submit">sign up</button>
     </body>
 </html>
